@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alaçatı Gençlik Spor Kulübü taraftar ürünleri — formalar, tekstil ve aksesuarlar.">
+  <title>Alaçatı Store | Renklerine Bağlı Kal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline">1927’DEN BERİ AYNI ARMA · AYNI TUTKU</div>
+  <header class="site-header">
+    <a class="brand" href="#anasayfa" aria-label="Alaçatı Store ana sayfa">
+      <img src="assets/logo.png" alt="Alaçatı Gençlik Spor Kulübü arması">
+      <span><b>ALAÇATI</b><small>STORE</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç">☰</button>
+    <nav id="mainNav">
+      <a href="#anasayfa">Ana Sayfa</a>
+      <a href="#urunler">Ürünler</a>
+      <a href="#hikayemiz">Hikayemiz</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+    <div class="header-actions">
+      <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Ürün ara..." aria-label="Ürün ara"></label>
+      <button class="theme-toggle" id="themeToggle" aria-label="Koyu modu değiştir">◐</button>
+      <button class="cart-button" id="cartButton" aria-label="Sepeti aç">Sepet <span id="cartCount">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="anasayfa">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> ALAÇATI GENÇLİK SPOR KULÜBÜ</p>
+        <h1>ARMANA<br><em>SAHİP ÇIK.</em></h1>
+        <p class="hero-text">Sahada, tribünde, hayatın her yerinde. Sarı lacivert sevdanı taşı.</p>
+        <a class="primary-button" href="#urunler">ÜRÜNLERİ KEŞFET <b>↗</b></a>
+        <div class="hero-note"><strong>1927</strong><span>Bir arma, binlerce hikâye.</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="sun-disc"></div>
+        <div class="hero-tag">YENİ<br>SEZON</div>
+        <img src="assets/forma-sari.png" alt="Alaçatı Store sarı lacivert taraftar forması">
+        <div class="vertical-word">ALAÇATI · 1927</div>
+      </div>
+      <div class="hero-bottom">SARI <span>●</span> LACİVERT <span>●</span> BEYAZ</div>
+    </section>
+
+    <section class="ticker" aria-label="Alaçatı Store kayan mesajı">
+      <div class="ticker-track">
+        <div class="ticker-group"><span>BU ARMA BİZİM</span><img src="assets/logo.png" alt="Alaçatıspor arması"><span>BU RENKLER BİZİM</span><img src="assets/logo.png" alt="Alaçatıspor arması"><span>HER YERDE ALAÇATI</span><img src="assets/logo.png" alt="Alaçatıspor arması"></div>
+        <div class="ticker-group" aria-hidden="true"><span>BU ARMA BİZİM</span><img src="assets/logo.png" alt=""><span>BU RENKLER BİZİM</span><img src="assets/logo.png" alt=""><span>HER YERDE ALAÇATI</span><img src="assets/logo.png" alt=""></div>
+      </div>
+    </section>
+
+    <section class="shop-section" id="urunler">
+      <div class="section-heading">
+        <div><p class="eyebrow">TRİBÜNÜN RENGİ</p><h2>STORE <em>KOLEKSİYONU</em></h2></div>
+        <p>Günlük stilinden maç gününe<br>favori parçanı seç.</p>
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-category="Tümü">Tümü</button>
+        <button class="filter" data-category="Forma">Formalar</button>
+        <button class="filter" data-category="Tişört">Tişörtler</button>
+        <button class="filter" data-category="Sweatshirt">Sweatshirt</button>
+        <button class="filter" data-category="Aksesuar">Aksesuar</button>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-id="1" data-category="Forma" data-name="İç Saha Forması">
+          <button class="product-open" aria-label="İç Saha Forması detaylarını aç">
+            <div class="product-image"><span class="product-label">ÇOK SATAN</span><img src="assets/forma-sari.png" alt="İç saha forması ön görünüm"></div>
+            <div class="product-info"><div><h3>İç Saha Forması</h3><p>2026 sezonu · Sarı / Lacivert</p></div><strong>899 TL</strong></div>
+            <span class="view-product">ÜRÜNÜ İNCELE ↗</span>
+          </button>
+        </article>
+        <article class="product-card" data-id="2" data-category="Forma" data-name="Deplasman Forması">
+          <button class="product-open" aria-label="Deplasman Forması detaylarını aç">
+            <div class="product-image"><span class="product-label">YENİ</span><img src="assets/forma-cizgili.png" alt="Deplasman forması ön görünüm"></div>
+            <div class="product-info"><div><h3>Deplasman Forması</h3><p>Özel çubuklu tasarım</p></div><strong>949 TL</strong></div>
+            <span class="view-product">ÜRÜNÜ İNCELE ↗</span>
+          </button>
+        </article>
+        <article class="product-card" data-id="3" data-category="Tişört" data-name="Sarı Taraftar Tişörtü">
+          <button class="product-open" aria-label="Sarı Taraftar Tişörtü detaylarını aç">
+            <div class="product-image"><img src="assets/tisort-sari.png" alt="Sarı taraftar tişörtü"></div>
+            <div class="product-info"><div><h3>Sarı Taraftar Tişörtü</h3><p>Günlük koleksiyon</p></div><strong>499 TL</strong></div>
+            <span class="view-product">ÜRÜNÜ İNCELE ↗</span>
+          </button>
+        </article>
+        <article class="product-card" data-id="4" data-category="Tişört" data-name="Siyah Antrenman Tişörtü">
+          <button class="product-open" aria-label="Siyah Antrenman Tişörtü detaylarını aç">
+            <div class="product-image"><img src="assets/tisort-siyah.png" alt="Siyah antrenman tişörtü"></div>
+            <div class="product-info"><div><h3>Siyah Antrenman Tişörtü</h3><p>Performans serisi</p></div><strong>549 TL</strong></div>
+            <span class="view-product">ÜRÜNÜ İNCELE ↗</span>
+          </button>
+        </article>
+        <article class="product-card" data-id="5" data-category="Sweatshirt" data-name="Kapüşonlu Sweatshirt">
+          <button class="product-open" aria-label="Kapüşonlu Sweatshirt detaylarını aç">
+            <div class="product-image"><span class="product-label">FAVORİ</span><img src="assets/hoodie.png" alt="Lacivert kapüşonlu sweatshirt"></div>
+            <div class="product-info"><div><h3>Kapüşonlu Sweatshirt</h3><p>Lacivert / Sarı</p></div><strong>1.099 TL</strong></div>
+            <span class="view-product">ÜRÜNÜ İNCELE ↗</span>
+          </button>
+        </article>
+        <article class="product-card" data-id="6" data-category="Aksesuar" data-name="Lacivert Taraftar Beresi">
+          <button class="product-open" aria-label="Lacivert Taraftar Beresi detaylarını aç">
+            <div class="product-image"><span class="product-label">YENİ</span><img src="assets/bere-lacivert.jpg" alt="Lacivert Alaçatıspor taraftar beresi"></div>
+            <div class="product-info"><div><h3>Lacivert Taraftar Beresi</h3><p>Katlanabilir örgü bere</p></div><strong>349 TL</strong></div>
+            <span class="view-product">ÜRÜNÜ İNCELE ↗</span>
+          </button>
+        </article>
+        <article class="product-card" data-id="7" data-category="Aksesuar" data-name="Lacivert Taraftar Şortu">
+          <button class="product-open" aria-label="Lacivert Taraftar Şortu detaylarını aç">
+            <div class="product-image"><img src="assets/sort-lacivert.jpg" alt="Lacivert sarı detaylı taraftar şortu"></div>
+            <div class="product-info"><div><h3>Lacivert Taraftar Şortu</h3><p>Sarı şerit detaylı</p></div><strong>499 TL</strong></div>
+            <span class="view-product">ÜRÜNÜ İNCELE ↗</span>
+          </button>
+        </article>
+        <article class="product-card" data-id="8" data-category="Sweatshirt" data-name="Fermuarlı Taraftar Ceketi">
+          <button class="product-open" aria-label="Fermuarlı Taraftar Ceketi detaylarını aç">
+            <div class="product-image"><span class="product-label">YENİ</span><img src="assets/ceket-fermuar.jpg" alt="Lacivert sarı detaylı fermuarlı taraftar ceketi"></div>
+            <div class="product-info"><div><h3>Fermuarlı Taraftar Ceketi</h3><p>Lacivert / Sarı</p></div><strong>1.299 TL</strong></div>
+            <span class="view-product">ÜRÜNÜ İNCELE ↗</span>
+          </button>
+        </article>
+      </div>
+      <p class="no-results" id="noResults" hidden>Aradığın ürünü bulamadık. Başka bir kelime deneyebilirsin.</p>
+    </section>
+
+    <section class="club-banner" id="hikayemiz">
+      <img src="assets/logo.png" alt="Alaçatı Gençlik Spor Kulübü arması">
+      <div><p class="eyebrow">KÖKLERİMİZ 1927’DE</p><h2>BİR TAKIMDAN<br><em>DAHA FAZLASI.</em></h2><p>Alaçatı’nın renklerini taşıyan herkese… Bu mağaza, armaya gönül veren taraftarlar için tasarlandı. Sarı ve lacivert bizim hikâyemiz.</p></div>
+      <span class="banner-year">19<br>27</span>
+    </section>
+    <section class="bottom-cta" id="iletisim"><div><p class="eyebrow">BİZİMLE İLETİŞİME GEÇ</p><h2>TRİBÜNDE <em>GÖRÜŞÜRÜZ.</em></h2></div><a href="mailto:merhaba@alacatistore.com" class="outline-button">BİZE ULAŞ ↗</a></section>
+  </main>
+
+  <footer><a class="footer-brand" href="#anasayfa">ALAÇATI <span>STORE</span></a><p>© 2026 Alaçatı Store · Taraftarın yeri, armamızın evi.</p><a href="#anasayfa">YUKARI ↑</a></footer>
+
+  <div class="product-modal-backdrop" id="productModalBackdrop"></div>
+  <section class="product-modal" id="productModal" role="dialog" aria-modal="true" aria-label="Ürün detayları" aria-hidden="true">
+    <button class="modal-close" id="closeProductModal" aria-label="Pencereyi kapat">×</button>
+    <div class="modal-gallery">
+      <div class="modal-main-image"><img id="modalImage" src="" alt="Seçili ürün"></div>
+      <div class="modal-thumbs" id="modalThumbs"></div>
+    </div>
+    <div class="modal-details">
+      <p class="eyebrow" id="modalCategory">ALAÇATI STORE</p>
+      <h2 id="modalName">Ürün adı</h2>
+      <strong class="modal-price" id="modalPrice"></strong>
+      <p class="modal-description" id="modalDescription"></p>
+      <label class="size-label" for="sizeSelect">BEDENİNİ SEÇ</label>
+      <div class="size-options" id="sizeOptions">
+        <button type="button" data-size="S">S</button><button type="button" data-size="M">M</button><button type="button" data-size="L">L</button><button type="button" data-size="XL">XL</button><button type="button" data-size="XXL">XXL</button>
+      </div>
+      <p class="size-hint" id="sizeHint">Lütfen beden seç</p>
+      <button class="modal-add" id="modalAdd">SEPETE EKLE ↗</button>
+      <p class="shipping-hint" id="shippingHint">1.500 TL ve üzeri alışverişlerde kargo ücretsiz</p>
+    </div>
+  </section>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Alışveriş sepeti" aria-hidden="true">
+    <div class="cart-head"><div><p class="eyebrow">ALIŞVERİŞİN</p><h2>SEPETİM</h2></div><button id="closeCart" aria-label="Sepeti kapat">×</button></div>
+    <div id="cartItems" class="cart-items"><p class="empty-cart">Sepetin şimdilik boş. Hadi renklerini seç!</p></div>
+    <div class="shipping-progress"><div class="shipping-progress-top"><span id="shippingMessage">Ücretsiz kargo için 1.500 TL kaldı</span><b id="shippingPercent">0%</b></div><div class="progress-track"><span id="shippingBar"></span></div></div>
+    <div class="cart-total"><span>Toplam</span><strong id="cartTotal">0 TL</strong></div>
+    <button class="checkout" id="checkoutButton">SİPARİŞİ TAMAMLA ↗</button>
+    <p class="demo-note">Demo mağazadır · Ödeme ve sipariş işlemi aktif değildir.</p>
+  </aside>
+  <div class="toast" id="toast">Ürün sepete eklendi</div>
+  <script src="script.js"></script>
+</body>
+</html>
